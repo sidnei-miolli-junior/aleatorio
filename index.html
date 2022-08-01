@@ -4,48 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="FAVICON.png" alt="icone da loja" />
-    <title>Durante demos</title>
-    <link rel="stylesheet" type="text/css" href="demo.css" media="screen"/>
+    <link rel="icon" href="FAVICON.png">
+    <title>Testando</title>
+    <link rel="stylesheet" type="text/css" href="entrega.css" media="screen">
 </head>
 <body>
-    <!--Cabeçalho da pagina-->
-    <header class="logo">
-       <h1 class="titulo">Miolli Store</h1>
-    </header>
-    <h2 class="cadastro">Faça seu Cadastro a Seguir</h2>
-    <!--Formularios da Pagina-->
- <section class="todos">  
-  <form class="formulario">
-        <label for="nomee"><strong>Nome</strong></label>
-        <input class="fo" type="text" id="nomee" placeholder="Digite seu nome aqui"/>
-   </form>
-   <form class="formulario2">    
-        <label for="mail"><strong>Email</strong></label>
-        <input class="ma" type="email" placeholder="Digite seu email aqui" required="true" id="mail"/>
-  </form>
-  <form class="formulario3">
-    <label for="senha"><strong>Password</strong></label>
-    <input class="pa" type="password" id="senha" placeholder="Digite sua senha aqui"/>
-  </form>
-  <form class="formulario4">
-    <label for="senha2"><strong>Confirmar password</strong></label>
-    <input class="pas" type="password" id="senha2" placeholder="Confirme sua senha"/>
-  </form>
-  <form class="formulario5">
-    <label for="data"><strong>Data</strong></label>
-    <input class="da" type="date" id="data"/>
-  </form>
-  <form>
-    <label for="checbo"><strong>Receber ofertas</strong></label>
-    <input class="chec" type="checkbox" required>Eu desejo receber ofertas
-  </form>
-  <form>
-    <label for="botao"><strong>Cadastrar agora</strong></label>
-    <a href="https://sidnei-miolli-junior.github.io/aleatorio2/">
-        <input class="bu" type="button" value="Cadastrar">
-    </a>
-  </form>
- </section>
+   <header class="conteudo-da-pagina">
+    <h1 class="titulo-1"><p class="titulo-2">Mariana Pereira</p></h1>
+    <main class="bloco-central">
+        <h3 class="sub-titulo">Solicite seu orçamento</h3>
+        <div class="formularios">
+            <form class="primeira">
+                <label for="nomee"><strong>Nome</strong></label>
+                <input class="fo" type="text" id="nomee" placeholder="Digite seu nome aqui"/>
+           </form>
+           <form class="primeira">    
+                <label for="mail"><strong>Email</strong></label>
+                <input class="ma" type="email" id="mail" placeholder="Digite seu email aqui"/>
+          </form>
+          <form class="primeira">
+            <label for="data"><strong>Data</strong></label>
+            <input class="da" type="date" id="data"/>
+          </form>
+         <div class="texto">
+          <p><strong>Descreva sua solicitação a seguir:</strong></p>
+         </div>
+         <form>
+            <textarea class="caixa-texto" placeholder="Descreva sua solicitação" rows="12" cols="118" maxlength="2000"></textarea>
+          </form>
+          <form class="chec">
+            <label for="check" class="rec"><strong>Receber ofertas</strong></label>
+            <input type="checkbox" required>Eu desejo receber ofertas
+          </form>
+          <form class="so">
+            <label for="bu"><strong>Enviar solicitação</strong></label>
+            <input type="submit">
+          </form>
+        </div>
+
+    </main>
+   </header>  
 </body>
 </html>
