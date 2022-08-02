@@ -95,6 +95,7 @@ h3{
 
 
 
+
 .conteudo-da-pagina{
     margin: 30px 20px 30px 20px;
 }
@@ -145,4 +146,16 @@ strong{
 }
 .chec{
     margin-left: 35%;
+}
+.ma:hover{
+    background-color: #D8BFD8;
+}
+.da:hover{
+    background-color:#D8BFD8 ;
+}
+.fo:hover{
+    background-color: #D8BFD8;
+}
+.caixa-texto:hover{
+    background-color: #D8BFD8;
 }
