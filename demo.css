@@ -73,6 +73,13 @@ h1{
     font-weight: 600;
     font-size: xx-large;
     color: #FFF0F5;
+    display: inline-block;
+}
+.cabeçalho img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    padding-top: 6px;
 }
 div.container{
     width: 100%;
