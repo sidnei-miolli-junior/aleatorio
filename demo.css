@@ -90,7 +90,7 @@ div.container{
 
 }
 h3{
-   font-weight: 600;
+   font-weight: 1000;
 }
 
 
@@ -114,6 +114,9 @@ background-color: #D8BFD8;
 .formularios{
     margin-left: 30px;
     margin-top: 70px;
+}
+strong{
+    font-weight: 600;
 }
 .inn{
     background-color: #D8BFD8;
